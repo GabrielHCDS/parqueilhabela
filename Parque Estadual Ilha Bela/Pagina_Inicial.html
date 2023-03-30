@@ -1,0 +1,92 @@
+<!-- CARACTERÍSTICAS DO DOCUMENTO HTML:
+-Tipo de Documento(DOCTYPE).
+
+-Idioma usado no documento(lang = "x").
+
+-TAG <head></head> armazena as informações vitais do documento, determina suas características.
+
+-meta charset: Tipos de caracteres usados no documento, UTF-8 aceita maior quantia de acentos e pontuações, se usar outra corre risco de quebrar no browser.
+
+-meta name="viewport" adéqua o documento para ser exibido responsivamente em múltiplas telas.
+content ="width=device-width" configura o documento para ser exibido preenchendo toda a tela do dispositivo.
+
+-inicial-scale=1.0 configura o zoom para ser padrão ao acessar o documento.
+
+-meta name="robots" usa para definir se o documento será ou não exibido na internet.
+content="noindex" não inclui o documento nos resultados de pesquisa na internet.
+content="nofollow" os links encontrados no documento não serão associados diretamente à ele.
+(robots, noindex, nofollow sâo úteis para compartilhar informações privadas, em uma empresa por exemplo.)
+
+-meta name="description" anexa uma descrição ao site na página de resultados.
+content= diz ao sistema qual conteúdo deve ser anexado.
+
+-link rel="stylesheet" href="estilo.css" type="text/css"
+rel="stylesheet" informa o carregamento de um arquivo de estilos css.
+href="estilo.css" diz qual arquivo css deve ser carregado.
+type="text/css" mesma função da rel.
+
+-a href="#Sobre o parque"  determina a posição de uma âncora no documento.
+<div id="Sobre o parque" posição d destino da id.
+
+-img src="parque ilha bela.jpg" alt="Parque Ilha Bela" title="Parque Ilha Bela"
+img src determina qual imagem será exibida no site.
+alt= descrição da imagem, aparece caso haja um erro.
+title= o que é exibido ao passar o mouse em cima da imagem.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Venha visitar o Parque Estadual Ilha Bela, um ótimo local para se divertir e aproveitar com sua família.">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Parque Estadual Ilha Bela</title>
+</head>
+<body>
+    <div>
+    <h1>Seja Bem Vindo ao Parque Estadual Ilha Bela!</h1>
+    <br>
+    <li>
+    <a href="#Sobre o Parque">
+        Sobre o Parque
+    </a>
+    </li>
+    </div>
+
+    <div>
+        <br>
+    <img src="parque-ilha-bela.jpg" alt="Parque Estadual Ilha Bela" title="Parque Ilha Bela">
+    <p>Parque Estadual em Ilha Bela - RJ</p>
+    </div>
+
+    <div id="Sobre o Parque">
+        <h2>Sobre o Parque</h2>
+        <h4>O lugar ideal para momentos inesquecíveis</h4>
+        <p>Fundado em 1992, o Parque Estadual Ilha Bela é o lugar ideal para você desfrute de ótimos momentos. Anualmente 2 milhões de visitantes passam pelo parque para conhecer o local. Veja o que o parque oferece:</p>
+    </div>
+
+
+    <div>
+        <h4>Tranquilidade e segurança.</h4>
+        <p> Por todo o parque é possível ver um clima de tranquilidade e segurança. É o lugar perfeito para se reunir com amigos, familiares ou até mesmo para visitar sozinho.</p>
+    </div>
+
+    <div>
+        <h4>Paisagens de tirar o fôlego</h4>
+        <p>Diversos tipos de paisagens podem ser vistas ao longo do parque, então é garantia de fotos incríveis de todos os tipos.</p>
+    </div>
+
+    <div>
+        <h4>Entrada Franca</h4>
+        <p> A entrada no parque é totalmente gratuita. A exceção fica por conta de algumas atividades que podem ser feitas no local. Para mais informações entre em contato <a href="tel+5521999999999">clique aqui.</a></p>
+        <br>
+        <a href="pag_2.html" target="_blank">
+        pagina 2 boy
+        </a>
+            
+        
+    </div>
+</body>
+</html>
